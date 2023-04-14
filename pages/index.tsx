@@ -1,6 +1,12 @@
+import Header from "@/components/Header";
+
 export default function Home() {
   return (
-    <h1 className="">
-    </h1>
+    <main className="
+              md:container lg:container mx-4 md:mx-auto lg:mx-auto pt-2 h-screen
+            "
+          >
+      <Header />
+    </main>
   )
 }
